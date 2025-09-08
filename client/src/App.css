@@ -373,21 +373,6 @@ body {
   letter-spacing: 0.025em;
 }
 
-/* .badge-fulltime {
-  background: #dcfce7;
-  color: #166534;
-}
-
-.badge-parttime {
-  background: #fef3c7;
-  color: #92400e;
-} */
-
-.badge-contract {
-  background: #dbeafe;
-  color: #3b82f6;
-}
-
 .status {
   padding: 0.25rem 0.75rem;
   border-radius: 6px;
@@ -395,16 +380,6 @@ body {
   font-weight: 600;
   letter-spacing: 0.025em;
 }
-
-/* .status-active {
-  background: #dcfce7;
-  color: #166534;
-}
-
-.status-inactive {
-  background: #fee2e2;
-  color: #991b1b;
-} */
 
 .pagination {
   display: flex;
