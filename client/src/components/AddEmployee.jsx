@@ -155,8 +155,8 @@ const AddEmployee = () => {
         <FaAngleLeft onClick={handleCancel} style={{height:'30px',width:'30px'}} />
         <h2>{isEditMode ? 'Edit Employee Details' : 'Add New Employee'}</h2>
       </div>
-      <h3 style={{color:'#3b82f6',borderBottom:'2px #3b82f6 solid',maxWidth:'250px',marginLeft:'10px'}}>
-        <CgProfile style={{color:'#3b82f6',height:'20px',width:'20px'}}/><span style={{padding:'5px'}}>Personal Information</span>
+      <h3 style={{color:'#3b82f6',borderBottom:'2px #3b82f6 solid',maxWidth:'250px',marginLeft:'10px',display:'flex',gap:'10px'}}>
+        <CgProfile style={{color:'#3b82f6',height:'20px',width:'20px',marginTop:'5px'}}/><span>Personal Information</span>
       </h3>
 
       {error && (

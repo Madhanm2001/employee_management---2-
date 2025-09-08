@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { getEmployee } from '../api';
 import { FaAngleLeft } from "react-icons/fa6";
+import { CgProfile } from "react-icons/cg";
 
 const ViewEmployee = () => {
   const navigate = useNavigate();
@@ -71,7 +72,7 @@ const ViewEmployee = () => {
         <FaAngleLeft onClick={handleBack} style={{height:'30px',width:'30px'}} />
         <h2>View Employee Details</h2>
       </div>
-<h3 style={{color:'blue',borderBottom:'2px blue solid',maxWidth:'200px',marginLeft:'10px'}}>personal information</h3>
+<h3 style={{color:'#3b82f6',borderBottom:'2px #3b82f6 solid',maxWidth:'250px',marginLeft:'10px',display:'flex',gap:'10px'}}><CgProfile style={{color:'#3b82f6',height:'20px',width:'20px',marginTop:'5px'}}/><span>personal information</span></h3>
       <div className="employee-details">
         <div className="details-card">
           <div className="details-header">
@@ -91,7 +92,6 @@ const ViewEmployee = () => {
               </div>
             </div>
           </div>
-
           <div className="details-content">
             <div className="detail-row">
               <div className="detail-item">
@@ -104,7 +104,7 @@ const ViewEmployee = () => {
               </div>
               
             </div>
-
+<hr style={{color:'grey'}}/>
             <div className="detail-row">
               <div className="detail-item">
                 <label>Department</label>
@@ -115,7 +115,7 @@ const ViewEmployee = () => {
                 <span>{employee.designation}</span>
               </div>
             </div>
-
+<hr style={{color:'grey'}}/>
             <div className="detail-row">
               <div className="detail-item">
                 <label>Project</label>
@@ -129,7 +129,7 @@ const ViewEmployee = () => {
               </div>
               
             </div>
-
+<hr style={{color:'grey'}}/>
             <div className="detail-row">
               <div className="detail-item">
                 <label>Status</label>
@@ -140,6 +140,7 @@ const ViewEmployee = () => {
             </div>
           </div>
         </div>
+
       </div>
     </>
   );

@@ -368,16 +368,14 @@ body {
 
 .badge {
   border-radius: 6px;
-  font-size: 0.75rem;
-  font-weight: 600;
+  font-size: 1rem;
   letter-spacing: 0.025em;
 }
 
 .status {
   padding: 0.25rem 0.75rem;
   border-radius: 6px;
-  font-size: 0.75rem;
-  font-weight: 600;
+  font-size: 1rem;
   letter-spacing: 0.025em;
 }
 
@@ -501,6 +499,7 @@ body {
 
 .detail-row {
   display: grid;
+  padding-top: 15px;
   grid-template-columns: 1fr 1fr;
   gap: 1.5rem;
   margin-bottom: 1.5rem;
