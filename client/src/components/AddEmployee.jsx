@@ -166,7 +166,6 @@ const AddEmployee = () => {
       )}
 
       <form onSubmit={handleSubmit} className="employee-form">
-        {/* Profile Image */}
         <div className="form-row">
           <div className="form-group">
             <label htmlFor="profileImage">Profile Image</label>
@@ -207,8 +206,6 @@ const AddEmployee = () => {
             </div>
           </div>
         </div>
-
-        {/* Employee Info Fields */}
         <div className="form-row">
           <div className="form-group">
             <label htmlFor="employeeName">Employee Name *</label>
@@ -327,7 +324,6 @@ const AddEmployee = () => {
           </div>
         </div>
 
-        {/* Actions */}
         <div className="form-actions">
           <button
             type="button"
