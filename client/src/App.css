@@ -125,7 +125,6 @@ body {
 }
 
 .nav-link.active {
-  /* border-right: 3px solid #535353; */
   font-weight: 600;
 }
 
